@@ -14,8 +14,8 @@ object OOSyntacticSugar extends App {
   println(mary likes "inception")
   println(mary + andy ) //Infix Notation
   println(!mary)
-  println(mary unary_!)
-  print(mary isAlive) //Postfix notation
+//  println(mary unary_!)
+//  print(mary isAlive) //Postfix notation
   println(mary.apply())
 
   print(mary()) // calls the apply method
